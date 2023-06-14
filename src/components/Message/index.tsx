@@ -1,7 +1,5 @@
 import React from "react";
 
-// import { Container } from './styles';
-
 const Message: React.FC = () => {
   return (
     <section>
@@ -14,7 +12,7 @@ const Message: React.FC = () => {
                 cultivados, com muito cuidado e ternura.”
               </h2>
 
-              <p className="font-bold text-white/90 mt-4 sm:block text-right">
+              <p className="font-bold text-white/90 mt-4 text-right">
                 - Carlo Acutis
               </p>
             </div>

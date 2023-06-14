@@ -2,7 +2,12 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+import localFont from "next/font/local";
+
+const myFont = localFont({
+  src: "../../public/fonts/PoetsenOne-Regular.ttf",
+  display: "swap",
+});
 
 export const metadata = {
   title: "Create Next App",
@@ -16,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={myFont.className}>
         {children}
         <Footer />
       </body>
