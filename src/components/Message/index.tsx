@@ -8,14 +8,14 @@ const Message: React.FC = () => {
       <div className="mx-auto max-w-screen-2xl px-4 py-8 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div className="bg-neutral-500 px-8 py-24 md:p-12 lg:px-16 lg:py-24">
-            <div className="mx-auto max-w-xl">
+            <div className="mx-auto max-w-xl flex flex-col">
               <h2 className="text-2xl italic text-white md:text-3xl">
                 “Os amigos são uma das nossas maiores riquezas, devem ser
                 cultivados, com muito cuidado e ternura.”
               </h2>
 
-              <p className="hidden font-bold text-white/90 sm:mt-4 sm:block text-right">
-                Carlo Acutis
+              <p className="font-bold text-white/90 mt-4 sm:block text-right">
+                - Carlo Acutis
               </p>
             </div>
           </div>

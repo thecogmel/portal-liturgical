@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
             <li>
               <a href="#" className="text-gray-500 transition hover:opacity-75">
-                Equipe Litúrgica - XXIV Segue-me Sant&apos;Ana
+                Equipe da Liturgia - XXIV Segue-me Sant&apos;Ana
               </a>
             </li>
           </ul>
