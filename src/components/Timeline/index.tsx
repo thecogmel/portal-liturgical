@@ -1,5 +1,5 @@
 "use client";
-import { friday, saturday, sunday, test } from "@/utils/days";
+import { friday, saturday, sunday } from "@/utils/days";
 import { DateTime } from "luxon";
 import React from "react";
 import StepDay from "../StepDay";
@@ -28,12 +28,6 @@ const Timeline: React.FC = () => {
         <StepDay
           title="Domingo - 25/06"
           dayInfo={sunday}
-          actualMoment={actualMoment}
-        />
-
-        <StepDay
-          title="teste - 17/06"
-          dayInfo={test}
           actualMoment={actualMoment}
         />
       </div>
