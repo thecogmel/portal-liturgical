@@ -3,6 +3,7 @@ import "./globals.css";
 import { Inter } from "next/font/google";
 
 import localFont from "next/font/local";
+import Navbar from "@/components/Navbar";
 
 const myFont = localFont({
   src: "../../public/fonts/PoetsenOne-Regular.ttf",
