@@ -56,16 +56,4 @@ export const messages: Message[] = [
     image1: `https://blog.todolivro.com.br/blog/wp-content/uploads/2022/07/texto-sobre-amizade-infantil.jpg`,
     image2: `https://www.cartacapital.com.br/wp-content/uploads/2021/09/istockphoto-1050594082-612x612-1-1.jpg`,
   },
-  {
-    message: `"Três coisas são necessárias à salvação do homem: saber o que se deve crer, saber o que se deve desejar e saber o que se deve fazer."`,
-    author: `São Tomás de Aquino`,
-    image1: `https://pbs.twimg.com/media/E3ii-daWUAInMZf?format=jpg&name=4096x4096`,
-    image2: `https://www.cartacapital.com.br/wp-content/uploads/2021/09/istockphoto-1050594082-612x612-1-1.jpg`,
-  },
-  {
-    message: `"A amizade é o vínculo que une uma alma a outra. A virtude é o vínculo que une uma alma a Deus."`,
-    author: `São Tomás de Aquino`,
-    image1: `https://www.cartacapital.com.br/wp-content/uploads/2021/09/istockphoto-1050594082-612x612-1-1.jpg`,
-    image2: `https://pbs.twimg.com/media/E3ii-daWUAInMZf?format=jpg&name=4096x4096`,
-  },
 ];

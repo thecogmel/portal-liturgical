@@ -1,7 +1,6 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
-// import { Container } from './styles';
 
 const Footer: React.FC = () => {
   return (
@@ -10,9 +9,21 @@ const Footer: React.FC = () => {
         <div className="mt-16 border-t border-gray-300 pt-8 sm:flex sm:items-center sm:justify-between lg:mt-24">
           <ul className="flex flex-wrap justify-center gap-4 text-xs lg:justify-end">
             <li>
-              <a href="#" className="text-gray-500 transition hover:opacity-75">
-                XXIV Segue-me Sant&apos;Ana - Equipe da Liturgia
-              </a>
+              <span className="flex items-center">
+                <Image
+                  className="h-8 w-auto"
+                  src="/logo.png"
+                  alt="Logo Segue-me Sant'Ana"
+                  height={32}
+                  width={32}
+                />
+                <a
+                  href="#"
+                  className="text-gray-500 transition hover:opacity-75"
+                >
+                  XXIV Segue-me Sant&apos;Ana - Equipe da Liturgia
+                </a>
+              </span>
             </li>
           </ul>
 
