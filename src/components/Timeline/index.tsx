@@ -12,15 +12,23 @@ const Timeline: React.FC = () => {
         Cronograma
       </h1>
       <div className="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 mt-4 px-4 place-content-center">
-        <StepDay title="Sexta" dayInfo={friday} actualMoment={actualMoment} />
+        <StepDay
+          title="Sexta - 23/06"
+          dayInfo={friday}
+          actualMoment={actualMoment}
+        />
 
         <StepDay
-          title="Sábado"
+          title="Sábado - 24/06"
           dayInfo={saturday}
           actualMoment={actualMoment}
         />
 
-        <StepDay title="Domingo" dayInfo={sunday} actualMoment={actualMoment} />
+        <StepDay
+          title="Domingo - 25/06"
+          dayInfo={sunday}
+          actualMoment={actualMoment}
+        />
       </div>
     </div>
   );
